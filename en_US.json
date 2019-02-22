@@ -1,0 +1,528 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "keyforge rules",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "SearchRuleIntent",
+                    "slots": [
+                        {
+                            "name": "rule",
+                            "type": "keyforgeRules"
+                        }
+                    ],
+                    "samples": [
+                        "what's an {rule}",
+                        "what's a {rule}",
+                        "what is a {rule}",
+                        "what is an {rule}",
+                        "read the rule for {rule}",
+                        "what is {rule}",
+                        "what is the {rule} rule",
+                        "what is the rule for {rule}",
+                        "how does {rule} work",
+                        "read me the rule for {rule}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "keyforgeRules",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "biomatrix backup"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "errata",
+                                "synonyms": [
+                                    "errata corrige"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "use",
+                                "synonyms": [
+                                    "using"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "unforge",
+                                "synonyms": [
+                                    "unforging"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "traits"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "turn"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "this way"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "taunt",
+                                "synonyms": [
+                                    "taunted",
+                                    "taunting"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "swap",
+                                "synonyms": [
+                                    "swapped",
+                                    "swapping"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "stun",
+                                "synonyms": [
+                                    "stunning",
+                                    "stun token",
+                                    "stun status card"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "steal",
+                                "synonyms": [
+                                    "stolen",
+                                    "stealing"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "splash"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "skirmish"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "self-referential text"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "search",
+                                "synonyms": [
+                                    "searching"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "sacrifice",
+                                "synonyms": [
+                                    "sacrificed",
+                                    "sacrificing"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "return",
+                                "synonyms": [
+                                    "returning"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "reap",
+                                "synonyms": [
+                                    "reaping"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "repeat",
+                                "synonyms": [
+                                    "repeating"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "rarity"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "purge",
+                                "synonyms": [
+                                    "purged",
+                                    "purging"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "preceding",
+                                "synonyms": [
+                                    "repeat the preceding"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "power counter",
+                                "synonyms": [
+                                    "power status card"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "poison"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "play"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "pay"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "opposing",
+                                "synonyms": [
+                                    "opposing creature",
+                                    "oppose"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "off house"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "omni"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "neighbor",
+                                "synonyms": [
+                                    "neighbouring"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "mulligan"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "most powerful"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "may"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "maverick"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "leaves play",
+                                "synonyms": [
+                                    "leaving play"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "least powerful"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "keys",
+                                "synonyms": [
+                                    "key"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "if you do",
+                                "synonyms": [
+                                    "in order to"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "house choice",
+                                "synonyms": [
+                                    "choosing a house",
+                                    "choose a house"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "heal",
+                                "synonyms": [
+                                    "healing"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "hazardous"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "friendly"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "forge",
+                                "synonyms": [
+                                    "forging keys",
+                                    "forge a key",
+                                    "forging"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "flank",
+                                "synonyms": [
+                                    "flanks"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "fight",
+                                "synonyms": [
+                                    "fighting",
+                                    "fight with",
+                                    "fighting"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "enemy"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ed of turn"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "elusive"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "discard pile",
+                                "synonyms": [
+                                    "discarding",
+                                    "discard"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "destroyed",
+                                "synonyms": [
+                                    "destroyer",
+                                    "destroying"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "damage"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "cost",
+                                "synonyms": [
+                                    "at current cost",
+                                    "current cost"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "control",
+                                "synonyms": [
+                                    "controlling",
+                                    "controller"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "chain",
+                                "synonyms": [
+                                    "gain chains",
+                                    "chains"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "capture",
+                                "synonyms": [
+                                    "captured",
+                                    "capturing "
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "cannot",
+                                "synonyms": [
+                                    "must"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "before"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "battleline"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "attack",
+                                "synonyms": [
+                                    "attacking",
+                                    "attacker"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "assault"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "armor"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "archives",
+                                "synonyms": [
+                                    "archiving",
+                                    "archive"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Æmber",
+                                "synonyms": [
+                                    "amber",
+                                    "ember"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "active player"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "active house"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "action ability",
+                                "synonyms": [
+                                    "action",
+                                    "action abilities"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ability",
+                                "synonyms": [
+                                    "card abilities",
+                                    "abilities",
+                                    "card ability"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
