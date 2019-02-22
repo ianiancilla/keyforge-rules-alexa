@@ -149,19 +149,19 @@ const rules = {
         text: "cards are rotated 90 degrees to the side. An exhausted card is not able to be used until it is readied by a game step or card ability. All creatures and artifacts enter play exhausted."
     },
     setup : {
-        rule: "setup", //game-setup
+        rule: "setup",
         text: "To set up the game, perform the following steps, in order: 1. Place all damage tokens, Æmber tokens, and status cards in a common supply within easy reach of both players. 2. Each player places their identity card to the left or right side of their play area. 3. Each player places three key tokens, one of each color, with the unforged side faceup near their identity card. 4. Randomly determine who is the first player. That player takes the first turn when the game begins. (If players are playing a series of games between two decks, in each game after the first, the player who used the deck that was defeated in the previous game chooses who is the first player.). 5. Each player shuffles their deck and offers it to the opponent for additional shuffling and/or a final cut. 6. The first player draws a starting hand of seven cards. The other player draws a starting hand of six cards. 7. Each player, starting with the first player, has one opportunity to mulligan their starting hand by shuffling it back into their deck and drawing a new starting hand with one fewer card in it. The game is now ready to begin."
     },
     turn : {
-        rule: "turn", //turn sequence turn phases phases of a turn
+        rule: "turn", 
         text: "The game is played over a series of turns. Players alternate taking turns until one player wins the game. Each turn consists of five steps. 1. Forge a key. 2. Choose a house. 3. Play, discard, and use cards of the chosen house. 4. Ready cards. 5. Draw cards. The player taking a turn is referred to as the active player. The active player is the only player that can perform actions or make decisions; a player does not make any decisions when it is not their turn. Each step is described in the following sections."
     },
     firstTurn : {
-        rule: "first turn rule", //first turn
+        rule: "first turn rule",
         text: "During the first player’s first turn of the game, that player cannot play or discard more than one card from their hand. Card effects can modify this rule."
     },
     upgrades : {
-        rule: "upgrades", //upgrade
+        rule: "upgrades",
         text: "Upgrades enter play attached to (i.e., partially overlapped by) a creature chosen by the player who controls the upgrade. Each upgrade remains in play from turn to turn and modifies the card to which it is attached. If the card to which an upgrade is attached leaves play, the upgrade is discarded. If an upgrade cannot attach to a card in play, the upgrade cannot enter play."
     },
     ruleOfSix : {
@@ -269,7 +269,7 @@ const rules = {
         text: "The creatures on the far right and far left of a player’s battleline are on the flanks of the line. A creature in this position is referred to as a flank creature. Any time a creature enters play or changes control, the active player chooses which flank of its controller’s battleine it is placed on. If a battleline only has one creature in it, that creature is on both the left and right flank and is considered a flank creature."
      },
     forge : {
-        rule: "forge", //forge a key
+        rule: "forge", 
         text: "If the active player has enough Æmber to forge a key during this step, they must do so. To forge a key, the active player spends Æmber from the Æmber pool on their identity card, returning it to the common supply. Then, that player flips any one of their key tokens over to its forged side, indicating that the key has been forged. The default cost to forge a key is six Æmber. Some card abilities may increase or decrease this number. No more than one key can be forged during this step each turn, even if the active player has enough Æmber to forge multiple keys. Some cards have effects that allow Æmber on these cards to be spent when forging keys. If there is enough Æmber on cards with this effect you control combined with the Æmber in your Æmber pool to forge a key you must do so during Step 1."
      },
     friendly : {
@@ -285,7 +285,7 @@ const rules = {
         text: "If an ability “heals” a creature, remove the specified amount of damage from the creature. If an ability “fully heals” a creature, remove all damage from the creature. Any creature can be chosen to be healed by a card effect that heals, even if it does not have any damage on it. However, if no damage is removed from the creature, it is not considered to have been “healed” for the purpose of card effects that reference healing."
      },
     houseChoice : {
-        rule: "house choice", //choose a house
+        rule: "house choice",
         text: "Each turn, a player must choose one of the three houses indicated by their identity card, if able. Some card abilities may restrict a player’s house choice. If a player has gained control of a card that does not belong to one of their three houses, that card’s house becomes an eligible choice for that player while the player retains control of the card. If there is no legal choice of house, the player plays the turn with no active house. If a player is faced with two (or more) “must choose” mandates, the player may choose either of those options. After choosing a house, the active player has the option to take all cards in their archives and add them to their hand. ("
      },
     ifYouDo : {
@@ -444,7 +444,7 @@ const rules = {
         text: "Repeating an effect does not interact with the Rule of Six, as the Rule of Six only applies to playing or using cards, not triggering their effect multiple times."
      },
     phaseShift : {
-        rule: "phase shift", //first turn
+        rule: "phase shift", 
         text: "Its the first turn of the game and I am going first. I choose house Logos to be the active house and play the card Phase Shift. Does this allow me to play another card this turn even though the First Turn Rule is in effect? Playing Phase Shift will allow you to play another card from your hand this turn, since the First Turn Rule can be modified by card effects."
      },
     wildWormhole : {
@@ -456,19 +456,19 @@ const rules = {
         text: "I have chosen house Logos to be my active house this turn and start off by playing Library Access, I then play Wild Wormhole. In what order do I resolve this combination of effects? When you play a Wild Wormhole after playing a Library Access the following happens in this order: 1. You gain 1 Æmber from Wild Wormhole’s Æmber bonus. 2. You draw a card from Library Access’s effect. 3. You resolve Wild Wormhole’s effect and play the top card of your deck. 4. You gain Æmber from any Æmber bonus on the played card. 5. You draw a card from Library Access’s effect. 6. You resolve any play effects on the card played from the top of your deck."
      },
     pitlordRestringuntus : {
-        rule: "pitlord", //restringuntus
+        rule: "pitlord", 
         text: "I have the card Pitlord in play and my opponent plays the card Restringuntus and chooses house Dis. What happens when I try to declare my house on my next turn? On your next turn, during the choose a house step, you will be in a position where you must choose house Dis (because of the Pitlord), but also cannot choose house Dis (because of the Restringuntus). Cannot effects have precedence over must effects, thus you cannot choose Dis. You may still choose either one of your other houses though."
      },
     faygin : {
-        rule: "faygin", //urchin
+        rule: "faygin",
         text: "I have a Faygin in play and my opponent has an Urchin in play. I reap with Faygin and with its reap effect I choose my opponent’s Urchin. What happens? Faygin’s effect causes the Urchin to try and go into your hand, however when a card leaves play it always goes to its owner’s corresponding out of play zone unless the card causing it to leave play specifies otherwise. The Urchin is returned to your opponent’s hand instead of yours."
      },
     kelifiDragon : {
-        rule: "kelifi dragon", //kelifi
+        rule: "kelifi dragon",
         text: "I have 0 Æmber in my Æmber pool and have chosen house Logos to be my active house this turn. I play Wild Wormhole and try and play the top card of my deck is Kelifi Dragon. What happens? The Kelifi Dragon is returned to the top of the deck. Kelifi Dragon has a play requirement of needing to have 7 Æmber in your Æmber pool, and since you didn’t have any initially (you now have 1 from playing the Wild Wormhole) you don’t have enough to be able to play the Kelifi Dragon. Since you can’t play the card it is returned to the place you tried to play it from, in this case the top of the deck."
      },
     yxiloBolter : {
-        rule: "yxilo bolter", //bolter bad penny
+        rule: "yxilo bolter",
         text: "On my opponent’s turn they use their Yxilo Bolter to reap and choose to resolve its reap effect on my Bad Penny. Is the Bad Penny purged or does it end up back in my hand? The Bad Penny goes back to your hand. “Destroyed:” effects happen immediately before a creature is destroyed, meaning that Bad Penny is back in its owner’s hand before the Yxilo Bolter can try to purge it with its reap effect. At that point, any pending effects waiting to resolve on Bad Penny no longer do. This is because Bad Penny is moving to an out-of-play zone in which the identity of cards is hidden from the opponent."
      },
     anger : {
@@ -476,11 +476,11 @@ const rules = {
         text: "I have a stunned creature in my battleline, play the card Anger, and choose to resolve its effect on that stunned creature. What happens? If a card (such as Anger in this case) allows you to use a creature and if the creature you are trying to use is stunned, you remove the stun instead of doing anything else. Since Fighting is a type of being used the creature is exhausted and the stun counter is removed. This will even work if your opponent has no creatures in play, because unstunning replaces the normal “use” (in this case fight) of the card before it begins."
      },
     stealerOfSouls : {
-        rule: "stealer of souls", //valdr
+        rule: "stealer of souls", 
         text: "I have a Stealer of Souls in play and my opponent has a Valdr. I use my Stealer of Souls to fight Valdr and both creatures are destroyed. Does the Stealer of Souls’ ability trigger? No, the Stealer of Souls’ ability will not trigger. In order for the Stealer of Souls ability to trigger it must be in play, so if both the Stealer of Souls and the creature it is fighting die, they die simultaneously and the Stealer of Souls ability cannot trigger."
      },
     combatPheromones : {
-        rule: "combat pheromones", //john smyth, Mindwarper
+        rule: "combat pheromones", 
         text: "I have a Combat Pheromones, “John Smyth”, and Mindwarper in play. I sacrifice the Combat Pheromones and reap with the Mindwarper, and then reap with “John Smyth” and use “John Smyth’s” reap effect to ready the Mindwarper. Can I use the Mindwarper again? Yes, Combat Pheromones is granting permission to use a creature during that turn. If you have an effect that readies one of the Mars cards affected by the Combat Pheromones (Such as “John Smyth”), you will be able to use that card again."
      },
     kingOfTheCrag : {
@@ -504,11 +504,11 @@ const rules = {
         text: "Dragon. The Spangler Box is returned to its owner’s hand with Grasping Vines, but I don’t have any Æmber. Do I get my Kelifi Dragon back? Yes. The Kelifi Dragon is not being played when it is returned by the Spangler Box, it is being put into play. Being put into play bypasses the normal play restrictions, meaning that the Kelifi Dragon is put back into play no matter how much Æmber you have."
      },
     smaash : {
-        rule: "smaash", //smash
+        rule: "smaash", 
         text: "I play Smaaash, but each of my opponent’s creatures is already stunned. Do I have to resolve the effect against Smaaash itself? No. You may still choose to resolve Smaaash’s “Play:” effect against one of your opponent’s creatures, however you cannot put a stun counter on an already stunned creature so nothing will happen."
      },
     sampleCollection : {
-        rule: "sample collection", //dysania
+        rule: "sample collection", 
         text: "My opponent puts two of my creatures into their archives using the card Sample Collection. On my next turn I play the card Dysania. What happens? Playing the Dysania will cause each of your opponent’s archived cards to be discarded, however since the Sample Collection states that when these creatures leave the archives they are put into their owner’s hand instead these cards are returned to your hand. Since these cards were not discarded by Dysania’s effect, you will not gain any Æmber from the resolution of that effect."
      },
     shadowSelf : {

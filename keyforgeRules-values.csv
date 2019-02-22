@@ -1,67 +1,91 @@
-﻿biomatrix backup,
-errata,,errata corrige
-use,,using
-unforge,,unforging
-traits,
-turn,
-this way,
-taunt,,taunted,taunting
-swap,,swapped,swapping
-stun,,stunning,stun token,stun status card
-steal,,stolen,stealing
-splash,
-skirmish,
-self-referential text,
-search,,searching
-sacrifice,,sacrificed,sacrificing
-return,,returning
-reap,,reaping
-repeat,,repeating
-ready,,readying
-rarity,
-purge,,purged,purging
-preceding,,repeat the preceding
-power counter,,power status card
-poison,
-play,
-pay,
-opposing,,opposing creature,oppose
-off house,
-omni,
-neighbor,,neighbouring
-mulligan,
-most powerful,
-may,
-maverick,
-leaves play,,leaving play
-least powerful,
-keys,,key
-if you do,,in order to
-house choice,,choosing a house,choose a house
-heal,,healing
-hazardous,
-friendly,
-forge,,forging keys,forge a key,forging
-flank,,flanks
+ability,,card abilities,abilities,card ability,,,
+action ability,,action,action abilities,,,,
+active house,,,,,,,
+active player,,,,,,,
+Æmber,,amber,ember,,,,
+anger,,,,,,,
+archives,,archiving,archive,,,,
+armor,,,,,,,
+assault,,,,,,,
+bait and switch,,,,,,,
+banner of battle,,poltergeist,,,,,
+battleline,,,,,,,
+before,,,,,,,
+biomatrix backup,,,,,,,
+bumpsy,,,,,,,
+cannot,,permissive,may,must,,,
+capture,,captured,capturing,,,,
+chain,,gain chains,chains,,,,
+combat pheromones,,jon smyth,mindwarper,,,,
+control,,controlling,controller,,,,
+cost,,at current cost,current cost,,,,
+damage,,,,,,,
+destroyed,,destroyer,destroying,,,,
+discard pile,,discarding,discard,,,,
+elusive,,,,,,,
+end of turn,,,,,,,
+enemy,,,,,,,
+errata,,errata corrige,,,,,
+exhausted,,exhaust,exhausting,,,,
+faygin,,urchin,,,,,
 fight,,attacking,attack,attacker,fighting,fight with,fighting
-enemy,
-ed of turn,
-elusive,
-discard pile,,discarding,discard
-destroyed,,destroyer,destroying
-damage,
-cost,,at current cost,current cost
-control,,controlling,controller
-chain,,gain chains,chains
-capture,,captured,capturing
-cannot,,permissive,may,must
-before,
-battleline,
-assault,
-armor,
-archives,,archiving,archive
-Æmber,,amber,ember
-active player,
-active house,
-action ability,,action,action abilities
-ability,,card abilities,abilities,card ability
+first turn,,first turn rule,,,,,
+flank,,flanks,,,,,
+forge,,forging keys,forge a key,forging,,,
+friendly,,,,,,,
+hazardous,,,,,,,
+heal,,healing,,,,,
+house choice,,choosing a house,choose a house,,,,
+if you do,,in order to,,,,,
+kelifi dragon,,kelifi,,,,,
+keys,,key,,,,,
+king of the crag,,looter goblin,,,,,
+least powerful,,,,,,,
+leaves play,,leaving play,,,,,
+library access,,,,,,,
+lost in the woods,,,,,,,
+maverick,,,,,,,
+may,,,,,,,
+most powerful,,,,,,,
+mulligan,,,,,,,
+neighbor,,neighbouring,,,,,
+off house,,,,,,,
+omni,,,,,,,
+opposing,,opposing creature,oppose,,,,
+pay,,,,,,,
+phase shift,,,,,,,
+pitlord,,pit lord,restringuntus,,,,
+play,,,,,,,
+poison,,,,,,,
+power counter,,power status card,,,,,
+preceding,,repeat the preceding,,,,,
+purge,,purged,purging,,,,
+rarity,,,,,,,
+ready,,readying,readied,,,,
+reap,,reaping,,,,,
+repeat,,repeating,,,,,
+return,,returning,,,,,
+sacrifice,,sacrificed,sacrificing,,,,
+sample collection,,dysania,,,,,
+search,,searching,,,,,
+self-referential text,,,,,,,
+setup,,game setup,setting up,,,,
+shadow self,,shadowself,,,,,
+skirmish,,,,,,,
+smaash,,smash,,,,,
+spangler box,,,,,,,
+splash,,,,,,,
+steal,,stolen,stealing,,,,
+stealer of souls,,valdr,,,,,
+stun,,stunning,stun token,stun status card,,,
+swap,,swapped,swapping,,,,
+taunt,,taunted,taunting,,,,
+this way,,,,,,,
+traits,,,,,,,
+turn,,,,,,,
+turn,,turn sequence,turn phases,phases of a turn,,,
+unforge,,unforging,,,,,
+upgrade,,upgrading,upgrades,,,,
+use,,using,,,,,
+wild wormhole,,,,,,,
+yxilo bolter,,bolter,bad penny,,,,
