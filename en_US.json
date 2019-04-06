@@ -32,20 +32,33 @@
                         }
                     ],
                     "samples": [
-                        "to read {rule}",
-                        "for {rule}",
-                        "for the {rule}",
+                        "what {rule} means",
+                        "read me the rule for {rule}",
+                        "read the rule for {rule}",
                         "{rule}",
+                        "what is {rule}",
                         "what's an {rule}",
                         "what's a {rule}",
                         "what is a {rule}",
                         "what is an {rule}",
-                        "read the rule for {rule}",
-                        "what is {rule}",
+                        "what are {rule}",
+                        "what are the {rule}",
                         "what is the {rule} rule",
                         "what is the rule for {rule}",
                         "how does {rule} work",
-                        "read me the rule for {rule}"
+                        "to read me {rule}",
+                        "to read {rule}",
+                        "for {rule}",
+                        "for the {rule}",
+                        "what {rule} is",
+                        "what an {rule} is",
+                        "what a {rule} is",
+                        "what {rule} are",
+                        "what the {rule} are",
+                        "what the rule for {rule} is",
+                        "what the {rule} rule is",
+                        "how {rule} works",
+                        "about {rule}"
                     ]
                 }
             ],
@@ -65,29 +78,36 @@
                         },
                         {
                             "name": {
-                                "value": "action ability",
+                                "value": "action",
                                 "synonyms": [
-                                    "action",
+                                    "action ability",
                                     "action abilities"
                                 ]
                             }
                         },
                         {
                             "name": {
-                                "value": "active house"
+                                "value": "activeHouse",
+                                "synonyms": [
+                                    "active house"
+                                ]
                             }
                         },
                         {
                             "name": {
-                                "value": "active player"
+                                "value": "activePlayer",
+                                "synonyms": [
+                                    "active player"
+                                ]
                             }
                         },
                         {
                             "name": {
-                                "value": "Æmber",
+                                "value": "aember",
                                 "synonyms": [
                                     "amber",
-                                    "ember"
+                                    "ember",
+                                    "Æmber"
                                 ]
                             }
                         },
@@ -117,14 +137,18 @@
                         },
                         {
                             "name": {
-                                "value": "bait and switch"
+                                "value": "baitAndSwitch",
+                                "synonyms": [
+                                    "bait and switch"
+                                ]
                             }
                         },
                         {
                             "name": {
-                                "value": "banner of battle",
+                                "value": "bannerOfBattle",
                                 "synonyms": [
-                                    "poltergeist"
+                                    "poltergeist",
+                                    "banner of battle"
                                 ]
                             }
                         },
@@ -140,7 +164,10 @@
                         },
                         {
                             "name": {
-                                "value": "biomatrix backup"
+                                "value": "biomatrixBackup",
+                                "synonyms": [
+                                    "biomatrix backup"
+                                ]
                             }
                         },
                         {
@@ -178,10 +205,11 @@
                         },
                         {
                             "name": {
-                                "value": "combat pheromones",
+                                "value": "combatPheromones",
                                 "synonyms": [
                                     "jon smyth",
-                                    "mindwarper"
+                                    "mindwarper",
+                                    "combat pheromones"
                                 ]
                             }
                         },
@@ -219,10 +247,10 @@
                         },
                         {
                             "name": {
-                                "value": "discard pile",
+                                "value": "discard",
                                 "synonyms": [
                                     "discarding",
-                                    "discard"
+                                    "discard pile"
                                 ]
                             }
                         },
@@ -233,12 +261,18 @@
                         },
                         {
                             "name": {
-                                "value": "end of turn"
+                                "value": "endOfTurn",
+                                "synonyms": [
+                                    "end of turn"
+                                ]
                             }
                         },
                         {
                             "name": {
-                                "value": "enemy"
+                                "value": "enemy",
+                                "synonyms": [
+                                    "enemies"
+                                ]
                             }
                         },
                         {
@@ -281,9 +315,10 @@
                         },
                         {
                             "name": {
-                                "value": "first turn",
+                                "value": "firstTurn",
                                 "synonyms": [
-                                    "first turn rule"
+                                    "first turn rule",
+                                    "first turn"
                                 ]
                             }
                         },
@@ -291,6 +326,7 @@
                             "name": {
                                 "value": "flank",
                                 "synonyms": [
+                                    "flanking",
                                     "flanks"
                                 ]
                             }
@@ -325,26 +361,29 @@
                         },
                         {
                             "name": {
-                                "value": "house choice",
+                                "value": "houseChoice",
                                 "synonyms": [
                                     "choosing a house",
-                                    "choose a house"
+                                    "choose a house",
+                                    "house choice"
                                 ]
                             }
                         },
                         {
                             "name": {
-                                "value": "if you do",
+                                "value": "ifYouDo",
                                 "synonyms": [
-                                    "in order to"
+                                    "in order to",
+                                    "if you do"
                                 ]
                             }
                         },
                         {
                             "name": {
-                                "value": "kelifi dragon",
+                                "value": "kelifiDragon",
                                 "synonyms": [
-                                    "kelifi"
+                                    "kelifi",
+                                    "kelifi dragon"
                                 ]
                             }
                         },
@@ -358,33 +397,44 @@
                         },
                         {
                             "name": {
-                                "value": "king of the crag",
+                                "value": "kingOfTheCrag",
                                 "synonyms": [
-                                    "looter goblin"
+                                    "looter goblin",
+                                    "king of the crag"
                                 ]
                             }
                         },
                         {
                             "name": {
-                                "value": "least powerful"
-                            }
-                        },
-                        {
-                            "name": {
-                                "value": "leaves play",
+                                "value": "leastPowerful",
                                 "synonyms": [
-                                    "leaving play"
+                                    "least powerful"
                                 ]
                             }
                         },
                         {
                             "name": {
-                                "value": "library access"
+                                "value": "leavesPlay",
+                                "synonyms": [
+                                    "leaving play",
+                                    "leaves play"
+                                ]
                             }
                         },
                         {
                             "name": {
-                                "value": "lost in the woods"
+                                "value": "libraryAccess",
+                                "synonyms": [
+                                    "library access"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "lostInTheWoods",
+                                "synonyms": [
+                                    "lost in the woods"
+                                ]
                             }
                         },
                         {
@@ -399,7 +449,10 @@
                         },
                         {
                             "name": {
-                                "value": "most powerful"
+                                "value": "mostPowerful",
+                                "synonyms": [
+                                    "most powerful"
+                                ]
                             }
                         },
                         {
@@ -417,7 +470,10 @@
                         },
                         {
                             "name": {
-                                "value": "off house"
+                                "value": "offHouse",
+                                "synonyms": [
+                                    "off house"
+                                ]
                             }
                         },
                         {
@@ -441,7 +497,10 @@
                         },
                         {
                             "name": {
-                                "value": "phase shift"
+                                "value": "phaseShift",
+                                "synonyms": [
+                                    "phase shift"
+                                ]
                             }
                         },
                         {
@@ -465,9 +524,11 @@
                         },
                         {
                             "name": {
-                                "value": "power counter",
+                                "value": "powerCounter",
                                 "synonyms": [
-                                    "power status card"
+                                    "power status card",
+                                    "power counter",
+                                    "power"
                                 ]
                             }
                         },
@@ -528,6 +589,15 @@
                         },
                         {
                             "name": {
+                                "value": "ruleOfSix",
+                                "synonyms": [
+                                    "rule of six",
+                                    "the rule of six"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
                                 "value": "sacrifice",
                                 "synonyms": [
                                     "sacrificed",
@@ -553,7 +623,10 @@
                         },
                         {
                             "name": {
-                                "value": "self-referential text"
+                                "value": "selfReferentialText",
+                                "synonyms": [
+                                    "self-referential text"
+                                ]
                             }
                         },
                         {
@@ -567,9 +640,10 @@
                         },
                         {
                             "name": {
-                                "value": "shadow self",
+                                "value": "shadowSelf",
                                 "synonyms": [
-                                    "shadowself"
+                                    "shadowself",
+                                    "shadow self"
                                 ]
                             }
                         },
@@ -588,7 +662,10 @@
                         },
                         {
                             "name": {
-                                "value": "spangler box"
+                                "value": "spanglerBox",
+                                "synonyms": [
+                                    "spangler box"
+                                ]
                             }
                         },
                         {
@@ -607,9 +684,10 @@
                         },
                         {
                             "name": {
-                                "value": "stealer of souls",
+                                "value": "stealerOfSouls",
                                 "synonyms": [
-                                    "valdr"
+                                    "valdr",
+                                    "stealer of souls"
                                 ]
                             }
                         },
@@ -643,17 +721,15 @@
                         },
                         {
                             "name": {
-                                "value": "this way"
+                                "value": "thisWay",
+                                "synonyms": [
+                                    "this way"
+                                ]
                             }
                         },
                         {
                             "name": {
                                 "value": "traits"
-                            }
-                        },
-                        {
-                            "name": {
-                                "value": "turn"
                             }
                         },
                         {
@@ -676,32 +752,28 @@
                         },
                         {
                             "name": {
-                                "value": "upgrade",
+                                "value": "upgrades",
                                 "synonyms": [
                                     "upgrading",
-                                    "upgrades"
+                                    "upgrade"
                                 ]
                             }
                         },
                         {
                             "name": {
-                                "value": "use",
+                                "value": "wildWormhole",
                                 "synonyms": [
-                                    "using"
+                                    "wild wormhole"
                                 ]
                             }
                         },
                         {
                             "name": {
-                                "value": "wild wormhole"
-                            }
-                        },
-                        {
-                            "name": {
-                                "value": "yxilo bolter",
+                                "value": "yxiloBolter",
                                 "synonyms": [
                                     "bolter",
-                                    "bad penny"
+                                    "bad penny",
+                                    "yxilo bolter"
                                 ]
                             }
                         }

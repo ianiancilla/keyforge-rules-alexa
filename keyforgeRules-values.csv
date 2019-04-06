@@ -1,91 +1,90 @@
-ability,,card abilities,abilities,card ability,,,
-action ability,,action,action abilities,,,,
-active house,,,,,,,
-active player,,,,,,,
-Æmber,,amber,ember,,,,
-anger,,,,,,,
-archives,,archiving,archive,,,,
-armor,,,,,,,
-assault,,,,,,,
-bait and switch,,,,,,,
-banner of battle,,poltergeist,,,,,
-battleline,,,,,,,
-before,,,,,,,
-biomatrix backup,,,,,,,
-bumpsy,,,,,,,
-cannot,,permissive,may,must,,,
-capture,,captured,capturing,,,,
-chain,,gain chains,chains,,,,
-combat pheromones,,jon smyth,mindwarper,,,,
-control,,controlling,controller,,,,
-cost,,at current cost,current cost,,,,
-damage,,,,,,,
-destroyed,,destroyer,destroying,,,,
-discard pile,,discarding,discard,,,,
-elusive,,,,,,,
-end of turn,,,,,,,
-enemy,,,,,,,
-errata,,errata corrige,,,,,
-exhausted,,exhaust,exhausting,,,,
-faygin,,urchin,,,,,
+﻿ability,,card abilities,abilities,card ability
+action,,action ability,action abilities
+activeHouse,,active house
+activePlayer,,active player
+aember,,amber,ember,Æmber
+anger,
+archives,,archiving,archive
+armor,
+assault,
+baitAndSwitch,,bait and switch
+bannerOfBattle,,poltergeist,banner of battle
+battleline,
+before,
+biomatrixBackup,,biomatrix backup
+bumpsy,
+cannot,,permissive,may,must
+capture,,captured,capturing
+chain,,gain chains,chains
+combatPheromones,,jon smyth,mindwarper,combat pheromones
+control,,controlling,controller
+cost,,at current cost,current cost
+damage,
+destroyed,,destroyer,destroying
+discard,,discarding,discard pile
+elusive,
+endOfTurn,,end of turn
+enemy,,enemies
+errata,,errata corrige
+exhausted,,exhaust,exhausting
+faygin,,urchin
 fight,,attacking,attack,attacker,fighting,fight with,fighting
-first turn,,first turn rule,,,,,
-flank,,flanks,,,,,
-forge,,forging keys,forge a key,forging,,,
-friendly,,,,,,,
-hazardous,,,,,,,
-heal,,healing,,,,,
-house choice,,choosing a house,choose a house,,,,
-if you do,,in order to,,,,,
-kelifi dragon,,kelifi,,,,,
-keys,,key,,,,,
-king of the crag,,looter goblin,,,,,
-least powerful,,,,,,,
-leaves play,,leaving play,,,,,
-library access,,,,,,,
-lost in the woods,,,,,,,
-maverick,,,,,,,
-may,,,,,,,
-most powerful,,,,,,,
-mulligan,,,,,,,
-neighbor,,neighbouring,,,,,
-off house,,,,,,,
-omni,,,,,,,
-opposing,,opposing creature,oppose,,,,
-pay,,,,,,,
-phase shift,,,,,,,
-pitlord,,pit lord,restringuntus,,,,
-play,,,,,,,
-poison,,,,,,,
-power counter,,power status card,,,,,
-preceding,,repeat the preceding,,,,,
-purge,,purged,purging,,,,
-rarity,,,,,,,
-ready,,readying,readied,,,,
-reap,,reaping,,,,,
-repeat,,repeating,,,,,
-return,,returning,,,,,
-sacrifice,,sacrificed,sacrificing,,,,
-sample collection,,dysania,,,,,
-search,,searching,,,,,
-self-referential text,,,,,,,
-setup,,game setup,setting up,,,,
-shadow self,,shadowself,,,,,
-skirmish,,,,,,,
-smaash,,smash,,,,,
-spangler box,,,,,,,
-splash,,,,,,,
-steal,,stolen,stealing,,,,
-stealer of souls,,valdr,,,,,
-stun,,stunning,stun token,stun status card,,,
-swap,,swapped,swapping,,,,
-taunt,,taunted,taunting,,,,
-this way,,,,,,,
-traits,,,,,,,
-turn,,,,,,,
-turn,,turn sequence,turn phases,phases of a turn,,,
-unforge,,unforging,,,,,
-upgrade,,upgrading,upgrades,,,,
-use,,using,,,,,
-wild wormhole,,,,,,,
-yxilo bolter,,bolter,bad penny,,,,
+firstTurn,,first turn rule,first turn
+flank,,flanking,flanks
+forge,,forging keys,forge a key,forging
+friendly,
+hazardous,
+heal,,healing
+houseChoice,,choosing a house,choose a house,house choice
+ifYouDo,,in order to,if you do
+kelifiDragon,,kelifi,kelifi dragon
+keys,,key
+kingOfTheCrag,,looter goblin,king of the crag
+leastPowerful,,least powerful
+leavesPlay,,leaving play,leaves play
+libraryAccess,,library access
+lostInTheWoods,,lost in the woods
+maverick,
+may,
+mostPowerful,,most powerful
+mulligan,
+neighbor,,neighbouring
+offHouse,,off house
+omni,
+opposing,,opposing creature,oppose
+pay,
+phaseShift,,phase shift
+pitlord,,pit lord,restringuntus
+play,
+poison,
+powerCounter,,power status card,power counter,power
+preceding,,repeat the preceding
+purge,,purged,purging
+rarity,
+ready,,readying,readied
+reap,,reaping
+repeat,,repeating
+return,,returning
+ruleOfSix,,rule of six,the rule of six
+sacrifice,,sacrificed,sacrificing
+sample collection,,dysania
+search,,searching
+selfReferentialText,,self-referential text
+setup,,game setup,setting up
+shadowSelf,,shadowself,shadow self
+skirmish,
+smaash,,smash
+spanglerBox,,spangler box
+splash,
+steal,,stolen,stealing
+stealerOfSouls,,valdr,stealer of souls
+stun,,stunning,stun token,stun status card
+swap,,swapped,swapping
+taunt,,taunted,taunting
+thisWay,,this way
+traits,
+turn,,turn sequence,turn phases,phases of a turn
+unforge,,unforging
+upgrades,,upgrading,upgrade
+wildWormhole,,wild wormhole
+yxiloBolter,,bolter,bad penny,yxilo bolter

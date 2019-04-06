@@ -152,12 +152,8 @@ const rules = {
         rule: "setup",
         text: "To set up the game, perform the following steps, in order: 1. Place all damage tokens, Æmber tokens, and status cards in a common supply within easy reach of both players. 2. Each player places their identity card to the left or right side of their play area. 3. Each player places three key tokens, one of each color, with the unforged side faceup near their identity card. 4. Randomly determine who is the first player. That player takes the first turn when the game begins. (If players are playing a series of games between two decks, in each game after the first, the player who used the deck that was defeated in the previous game chooses who is the first player.). 5. Each player shuffles their deck and offers it to the opponent for additional shuffling and/or a final cut. 6. The first player draws a starting hand of seven cards. The other player draws a starting hand of six cards. 7. Each player, starting with the first player, has one opportunity to mulligan their starting hand by shuffling it back into their deck and drawing a new starting hand with one fewer card in it. The game is now ready to begin."
     },
-    turn : {
-        rule: "turn", 
-        text: "The game is played over a series of turns. Players alternate taking turns until one player wins the game. Each turn consists of five steps. 1. Forge a key. 2. Choose a house. 3. Play, discard, and use cards of the chosen house. 4. Ready cards. 5. Draw cards. The player taking a turn is referred to as the active player. The active player is the only player that can perform actions or make decisions; a player does not make any decisions when it is not their turn. Each step is described in the following sections."
-    },
     firstTurn : {
-        rule: "first turn rule",
+        rule: "first turn",
         text: "During the first player’s first turn of the game, that player cannot play or discard more than one card from their hand. Card effects can modify this rule."
     },
     upgrades : {
@@ -270,7 +266,7 @@ const rules = {
      },
     forge : {
         rule: "forge", 
-        text: "If the active player has enough Æmber to forge a key during this step, they must do so. To forge a key, the active player spends Æmber from the Æmber pool on their identity card, returning it to the common supply. Then, that player flips any one of their key tokens over to its forged side, indicating that the key has been forged. The default cost to forge a key is six Æmber. Some card abilities may increase or decrease this number. No more than one key can be forged during this step each turn, even if the active player has enough Æmber to forge multiple keys. Some cards have effects that allow Æmber on these cards to be spent when forging keys. If there is enough Æmber on cards with this effect you control combined with the Æmber in your Æmber pool to forge a key you must do so during Step 1."
+        text: "If the active player has enough Æmber to forge a key during this step, they must do so. To forge a key, the active player spends Æmber from the Æmber pool on their identity card, returning it to the common supply. Then, that player flips any one of their key tokens over to its forged side, indicating that the key has been forged. The default cost to forge a key is six Æmber. Some card abilities may increase or decrease this number. No more than one key can be forged during this step each turn, even if the active player has enough Æmber to forge multiple keys. Some cards have effects that allow Æmber on these cards to be spent when forging keys. If there is enough Æmber on cards with this effect that you control, combined with the Æmber in your Æmber pool, to forge a key you must do so during Step 1."
      },
     friendly : {
         rule: "friendly",
@@ -428,12 +424,11 @@ const rules = {
         rule: "unforge",
         text: "If a previously forged key is “unforged,” flip the key token to its unforged side. The key no longer counts toward its controller’s victory condition and must be forged again to win the game."
      },
-    // use : {
-    //     rule: "use",
-    //     text: ""
-    //  },
-
 //ERRATA SECTION
+    errata : {
+        rule: "errata",
+        text: "The only errata in this version of the rules is in the text of Biomatrix Backup. Please search for that for more information."
+    },
     biomatrixBackup : {
         rule: "biomatrix backup",
         text: "Should read: “This creature gains,”Destroyed: Put this creature into its owner’s archives.””"
@@ -455,7 +450,7 @@ const rules = {
         rule: "library access",
         text: "I have chosen house Logos to be my active house this turn and start off by playing Library Access, I then play Wild Wormhole. In what order do I resolve this combination of effects? When you play a Wild Wormhole after playing a Library Access the following happens in this order: 1. You gain 1 Æmber from Wild Wormhole’s Æmber bonus. 2. You draw a card from Library Access’s effect. 3. You resolve Wild Wormhole’s effect and play the top card of your deck. 4. You gain Æmber from any Æmber bonus on the played card. 5. You draw a card from Library Access’s effect. 6. You resolve any play effects on the card played from the top of your deck."
      },
-    pitlordRestringuntus : {
+    pitlord : {
         rule: "pitlord", 
         text: "I have the card Pitlord in play and my opponent plays the card Restringuntus and chooses house Dis. What happens when I try to declare my house on my next turn? On your next turn, during the choose a house step, you will be in a position where you must choose house Dis (because of the Pitlord), but also cannot choose house Dis (because of the Restringuntus). Cannot effects have precedence over must effects, thus you cannot choose Dis. You may still choose either one of your other houses though."
      },
@@ -484,11 +479,11 @@ const rules = {
         text: "I have a Combat Pheromones, “John Smyth”, and Mindwarper in play. I sacrifice the Combat Pheromones and reap with the Mindwarper, and then reap with “John Smyth” and use “John Smyth’s” reap effect to ready the Mindwarper. Can I use the Mindwarper again? Yes, Combat Pheromones is granting permission to use a creature during that turn. If you have an effect that readies one of the Mars cards affected by the Combat Pheromones (Such as “John Smyth”), you will be able to use that card again."
      },
     kingOfTheCrag : {
-        rule: "king of the crag", //looter goblin
+        rule: "king of the crag", 
         text: "I play King of the Crag while my opponent has a Looter Goblin in play. What happens? The rules for damage state that “If a creature has as much or more damage on it as it has power, the creature is destroyed and placed on top of its owner’s discard pile.” When a creature has 0 power, if it has 0 damage on it, it is destroyed."
      },
     bannerOfBattle : {
-        rule: "banner of battle", // poltergeist
+        rule: "banner of battle", 
         text: "My opponent has a Banner of Battle in play. Can I play the card Poltergeist to destroy the Banner of Battle, even if the artifact can’t be used? Yes, you can resolve the effect of Poltergeist on any artifact in play even if the artifact cannot be used. You just resolve as much of the card effect as you can, and to resolve this situation you just destroy the artifact."
      },
     lostInTheWoods : {
